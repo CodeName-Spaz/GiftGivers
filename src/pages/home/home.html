@@ -1,14 +1,13 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div class="theContent" padding>
+    <div class="decider">
+      <img src="../../assets/icon/Logo.svg" alt="">
+      <p>Welcome to Gift Givers website, please choose from the below options to get started.</p>
+      <div class="choice">
+        <div (click)="toDonor()">I'm a donor</div>
+        <div (click)="toAdmin()">I'm the admin</div>
+      </div>
+    </div>
+  </div>
 </ion-content>
